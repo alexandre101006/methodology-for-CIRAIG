@@ -38,11 +38,11 @@ The assigned ETW of a vehicle is the EPA database is the closest step to its mea
 Each model can be assigned with multiple ETW in the EPA database as the specifications of a same model can make the weight vary (motorization, trasnmission,...).
 Therefore, we are able to obtain a confidence interval for the measured mass of each model :
 
-$ [ETW_{min} - \frac{lower STEP}{2} ; ETW_{max} + \frac{upper STEP}{2}]$
+$[ETW_{min} - \frac{lower STEP}{2} ; ETW_{max} + \frac{upper STEP}{2}]$
 
 Thus, we get a confidence interval for the net mass of each model :
 
-$ [min ; max] = [\frac{ETW_{min} - \frac{lower STEP}{2} - 300}{2,20462} - estim liquids mass ; \frac{ETW_{max} - \frac{upper STEP}{2} - 300}{2,20462}  - estim liquids mass] $
+$[min ; max] = [\frac{ETW_{min} - \frac{lower STEP}{2} - 300}{2,20462} - estim liquids mass ; \frac{ETW_{max} - \frac{upper STEP}{2} - 300}{2,20462}  - estim liquids mass]$
 
 * lower STEP : difference between the ETW_{min} and the ETW step below
 * upper STEP : difference between the ETW_{max} and the ETW step above
