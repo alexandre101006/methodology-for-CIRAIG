@@ -73,10 +73,10 @@ That allow us to get a data base with :
 YEAR - MAKE - MODEL - MIN - MAX - VEHICLE CLASS
 
 Here are a few statistics regarding the matching :
-* Out of the initial 12562 EPA vehicles, 10894 got a match
-* 6.7% have a matching score below 0.5
-* 12.2% have a matching score between 0.5 and 0.7
-* 15.4% have a matching score between 0.7 and 0.8
-* 14.5% have a matching score between 0.8 and 0.9
-* 45;6% have a matching score above 0.9
+* Out of the initial 12562 EPA vehicles, 10293 got a match
+* 7.1% have a matching score below 0.5
+* 12.9% have a matching score between 0.5 and 0.7
+* 16.3% have a matching score between 0.7 and 0.8
+* 15.4% have a matching score between 0.8 and 0.9
+* 48.2% have a matching score above 0.9
 
