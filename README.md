@@ -80,3 +80,17 @@ Here are a few statistics regarding the matching :
 * 15.4% have a matching score between 0.8 and 0.9
 * 48.2% have a matching score above 0.9
 
+### Matching EPA x SAAQ
+As evoked previously, the make/model name in the SAAQ database are underspecified.
+Therefore, all names in the EPA database are "stripped" and put under the same format (keeping the first five letters/word).
+
+While merging on those underspecified/shorten names, for each YEAR x MAKE x MODEL combination in the SAAQ database we keep a count of the number of matching lines in the EPA database.
+
+Finally, that count allows to define weights. If a SAAQ vehicle matched with multiple EPA vehicles, equal portions of that SAAQ vehicle will be assigned to all the possible EPA vehicles.
+ex. for a 2010 TOYOT COROL having a weight matching Toyota Corolla and Corolla Matrix, we will assign half of that 2010 TOYOT COROL to the classic model and half to the Matrix.
+
+This weight allocation is very important for the calculation of the estimated mean mass and number of each model.
+
+$MEAN MASS = \frac{\sum_{YEAR x MAKE x MODEL}MASSE NETTE * weight}{\sum_{}weight}$
+$NB = \sum_{YEAR x MAKE x MODEL}weights$
+
