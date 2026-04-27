@@ -44,12 +44,12 @@ Thus, we get a confidence interval for the net mass of each model :
 
 $[min ; max] = [\frac{ETW_{min} - \frac{lower STEP}{2} - 300}{2,20462} - estim liquids mass ; \frac{ETW_{max} - \frac{upper STEP}{2} - 300}{2,20462}  - estim liquids mass]$
 
-* lower STEP : difference between the ETW_{min} and the ETW step below
-* upper STEP : difference between the ETW_{max} and the ETW step above
+* lower STEP : difference between the $ETW_{min}$ and the ETW step below
+* upper STEP : difference between the $ETW_{max}$ and the ETW step above
 * estim liquid mass : estimated mass of the fuel, oil, coolant... when all of those are filled
 * 2,20462 is the conversion factor from lbs to kg
 
 The estimated liquid mass is defined as following :
-* 50 kg for models with ETW_{max} < 4000 lbs
-* 60 kg for models with 4000 lbs <= ETW_{max} < 5500 lbs
-* 70 kg for models with 5500 lbs <= ETW_{max}
+* 50 kg for models with $ETW_{max}$ < 4000 lbs
+* 60 kg for models with 4000 lbs <= $ETW_{max}$ < 5500 lbs
+* 70 kg for models with 5500 lbs <= $ETW_{max}$
