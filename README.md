@@ -92,5 +92,6 @@ ex. for a 2010 TOYOT COROL having a weight matching Toyota Corolla and Corolla M
 This weight allocation is very important for the calculation of the estimated mean mass and number of each model.
 
 $MEAN MASS = \frac{\sum_{YEAR x MAKE x MODEL}MASSE NETTE * weight}{\sum_{}weight}$
+
 $NB = \sum_{YEAR x MAKE x MODEL}weights$
 
