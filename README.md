@@ -12,13 +12,19 @@ The **SAAQ database** gathers data on all the vehicles registered in Québec. Ou
 
 The names of the makes and models are underspecified in the SAAQ database as we get the first five letters of the make/model (or the first word if it is shorter than five letters).
 
-The **EPA database** is a catalog of vehicles on the USA market. Our work focuses on the following data/columns, as they are the ones matching the expected level of detail :
+The **EPA database** is a catalog of vehicles on the USA market (post 2010, for now). Our work focuses on the following data/columns, as they are the ones matching the expected level of detail :
 * Model Year : the year the vehicle was manufactured
 * Represented Test Veh make : the make of the vehicle
 * Represented Test Veh Model : the model
 * Equivalent Test Weight (ETW) (in lbs.) : net mass of the vehicle + mass of all liquids filled + 300 (estimated mass of passenger + cargo)
 
 The ETW data is the center of our methodology. Therefore it needs to be understood right and some preliminary work concerns it.
+
+The **nrcan** database is a catalog of the vehicles on the Canadian market (post 1995). Our work focuses on the following data/columns, as they are the ones matching the expected level of detail : 
+* Model year : the year the vehicle was manufactured
+* Make : the make of the vehicle
+* Model : the model
+* Vehicle class
 
 **What result are we expecting ?**
 The expected result of the following works is to obtain a new database with the following information for each vehicle :
@@ -50,6 +56,27 @@ $[min ; max] = [\frac{ETW_{min} - \frac{lower STEP}{2} - 300}{2,20462} - estim l
 * 2,20462 is the conversion factor from lbs to kg
 
 The estimated liquid mass is defined as following :
-* 50 kg for models with $ETW_{max}$ < 4000 lbs
-* 60 kg for models with 4000 lbs <= $ETW_{max}$ < 5500 lbs
-* 70 kg for models with 5500 lbs <= $ETW_{max}$
+For MIN
+* if $ETW_{min} < 4000 lbs$ : 50kg
+* if 4000 lbs <= $ETW_{min} < 5500 lbs$ : 60kg
+* if 5500 lbs <= $ETW_{min} : 70kg
+
+For MAX
+* if $ETW_{min} <= 4000 lbs$ : 50kg
+* if 4000 lbs < $ETW_{min} <= 5500 lbs$ : 60kg
+* if 5500 lbs < $ETW_{min} : 70kg
+
+### Name matching EPA x nrcan database
+Using a machine learning code (from sentence_transformers import SentenceTransformer, util) we are able to match EPA models with nrcan models.
+
+That allow us to get a data base with :
+YEAR - MAKE - MODEL - MIN - MAX - VEHICLE CLASS
+
+Here are a few statistics regarding the matching :
+* Out of the initial 12562 EPA vehicles, 10894 got a match
+* 6.7% have a matching score below 0.5
+* 12.2% have a matching score between 0.5 and 0.7
+* 15.4% have a matching score between 0.7 and 0.8
+* 14.5% have a matching score between 0.8 and 0.9
+* 45;6% have a matching score above 0.9
+
