@@ -95,5 +95,9 @@ $MEAN MASS = \frac{\sum_{YEAR x MAKE x MODEL}MASSE NETTE * weight}{\sum_{}weight
 
 $NB = \sum_{YEAR x MAKE x MODEL}weights$
 
-Without any manual change of name, this method provides us data covering 2 597 223 vehicles (out of around 4.9 millions, ~53%).
+Without any manual change of name, this method provides us data covering 2 597 223 vehicles (out of around 5 243 145, ~50%).
+
+A few manual adjustments can be made, allowing to come up to 2 901 942 vehicles (55%).
+
+The exact same process can be made for electric vehicle post-2010, classic vehicles between 1998 and 2009.
 
