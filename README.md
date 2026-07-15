@@ -13,42 +13,42 @@ This module is built on the following object dimensions :
   <tr>
     <td rowspan="8">Vehicle</td>
     <td>Vehicle Class</td>
-    <td>Classes of vehicle based on criteria such as GVWR, interior volume or qualitative characteristics.</td>
+    <td>In Canada, the classification of vehicles is achieved on the basis of two quantitative criteria : the Gross Vehicle Weight Rate and the interior volume.</td>
   </tr>
 
   <tr>
     <td>Powertrain</td>
-    <td>Propulsion system used in a vehicle.</td>
+    <td>The power generator used in the vehicle.</td>
   </tr>
 
    <tr>
     <td>Vehicle ModelYear</td>
-    <td>Exact name of the vehicle studied.</td>
+    <td>The year of the manufactured batch of the model (a same model can have slightly different properties through the years).</td>
   </tr>
 
    <tr>
     <td>Vehicle MakeModel</td>
-    <td>Year of the vehicle (a same model can have slightly different properties every year).</td>
+    <td>The model of the vehicle.</td>
   </tr>
 
    <tr>
     <td>Vehicle GWVR</td>
-    <td>The Gross Vehicle Weight Rating represents the maximum safe weight of a vehicle when fully loaded : it encompasses the curb weight and passengers and cargo weight.</td>
+    <td>The Gross Vehicle Weight Rating represents the maximum safe weight of a vehicle when fully loaded : it encompasses the curbmass of the vehicle and passengers and cargo weight. (This dimensions hasn't been used yet : it is yet to determine if it can be useful in the future.)</td>
   </tr>
 
    <tr>
-    <td>Vehicle Component system</td>
-    <td>Three blocs of aggregated subcomponents that compose the final vehicle once they are assembled : the chassis/body, the energy storage system and the vehicle system.</td>
+    <td>Vehicle Component</td>
+    <td>The main blocks on which is built the vehicle.</td>
   </tr>
 
    <tr>
     <td>Battery chemistry</td>
-    <td>For vehicles using an electric motorization, the type of battery used.</td>
+    <td>For BEVs and hybrid systems, the battery functions with a certain battery chemistry which can vary from a model to an other.</td>
   </tr>
 
    <tr>
     <td>Vehicle Subcomponent</td>
-    <td>General subcomponents of a vehicle, constituting the three vehicle component systems.</td>
+    <td>The most granular level of elements composing the vehicle yet : they can be seen as a recipe to build the Vehicle Component</td>
   </tr>
 
 ## Model and hypothesis
