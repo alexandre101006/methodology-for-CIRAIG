@@ -84,6 +84,75 @@ This module is also built on the following action dimensions :
   </table>
 
 ## Model and hypothesis
+The complete vehicle is composed of three main Vehicle Component blocks :
+- **Vehicle system**
+- **Energy storage system**
+- **Chassis&Body**
+
+Those Vehicle Component are themselves composed of Vehicle Subcomponent elements. The mass of those elements is defined in one of the two following ways :
+- Fixed Mass : the mass of the subcomponent takes a fixed value depending only the Vehicle Class and the Powertrain.
+- Specified Mass : the mass of the component is calculated based on the mass ratio of the subcomponent to the curbmass of the vehicle (the ratio depends on the Vehicle Class and the Powertrain).
+
+The three Vehicle Component have the following "recipies" :
+
+**A. Vehicle system**
+<table>
+  <tr>
+    <th>Powertrain</th>
+    <th>Mass Calculation</th>
+    <th>Subcomponent</th>
+  </tr>
+
+  <tr>
+    <td rowspan="2">ICEV (-gasoline or -diesel)</td>
+    <td>Fixed Mass</td>
+    <td>Gearbox</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">Specified Mass</td>
+    <td>Combustion engine (full unit : block, head, moving parts and engine hardware).</td>
+  </tr>
+
+   <tr>
+    <td>Exhaust system (post-combustion exhaust line and aftertreatment equipment).</td>
+  </tr>
+
+   <tr>
+    <td>Transmission</td>
+  </tr>
+
+   <tr>
+    <td rowspan="2">BEV</td>
+    <td rowspan="4">Fixed Mass</td>
+    <td>PDU (power distribution/protection high-voltage unit)</td>
+  </tr>
+
+  <tr>
+    <td>PDU (power distribution/protection high-voltage unit)</td>
+  </tr>
+
+  <tr>
+    <td>Charger (on-board charging hardware)</td>
+  </tr>
+
+  <tr>
+    <td>Converter</td>
+  </tr>
+
+  <tr>
+    <td>Inverter (for motor control/regeneration)</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Specified Mass</td>
+    <td>e-motor (traction electric machine)</td>
+  </tr>
+
+   <tr>
+    <td>Transmission</td>
+  </tr>
+  </table>
 ### From real life to POLARIIS+
 ### Gap analysis
 ### Future progress
