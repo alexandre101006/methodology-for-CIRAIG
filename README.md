@@ -50,6 +50,7 @@ This module is built on the following object dimensions :
     <td>Vehicle Subcomponent</td>
     <td>The most granular level of elements composing the vehicle yet : they can be seen as a recipe to build the Vehicle Component</td>
   </tr>
+  </table>
 
 ## Model and hypothesis
 ### From real life to POLARIIS+
