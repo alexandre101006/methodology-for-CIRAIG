@@ -52,6 +52,37 @@ This module is built on the following object dimensions :
   </tr>
   </table>
 
+This module is also built on the following action dimensions :
+
+<table>
+  <tr>
+    <th>Space</th>
+    <th>Dimensions</th>
+    <th>Definition</th>
+  </tr>
+
+  <tr>
+    <td rowspan="8">Vehicle Manufacturing</td>
+    <td>Component Assembling</td>
+    <td>Exclusively cover the fabrication of the Vehicle Component.</td>
+  </tr>
+
+  <tr>
+    <td>Vehicle Assembling</td>
+    <td>Covers the fabrication of the complete vehicle with the Vehicle Component.</td>
+  </tr>
+
+   <tr>
+    <td>Marketing Component</td>
+    <td>Covers the transportation of the Vehicle Component.</td>
+  </tr>
+
+   <tr>
+    <td>Marketing Vehicle</td>
+    <td>Covers the transportation of complete vehicle.</td>
+  </tr>
+  </table>
+
 ## Model and hypothesis
 ### From real life to POLARIIS+
 ### Gap analysis
