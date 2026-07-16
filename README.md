@@ -96,6 +96,7 @@ Those Vehicle Component are themselves composed of Vehicle Subcomponent elements
 The three Vehicle Component have the following "recipes" :
 
 **A. Vehicle system**
+
 The recipe depends on the Powertrain.
 <table>
   <tr>
@@ -154,6 +155,7 @@ The recipe depends on the Powertrain.
 </table>
 
 **B. Body&Chassis**
+
 The recipe depends on the Vehicle Class.
 <table>
   <tr>
@@ -198,6 +200,7 @@ The recipe depends on the Vehicle Class.
 </table>
 
   **C. Energy storage system**
+
 The recipe depends on the Powertrain.
 The mass calculation of the elements is different from the others.
 The mass of a battery is calculated based on the fraction of its Capacity (kWh)  over its Specific energy (kWh/kg). The mass of a fuel tank is a proxy based on the fuel tank capacity (L) and a reference fuel tank (for which we have data on capacity and mass) :  precise model is explained [here](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/vehicle_component/fuel_tank_proxy/fueltank_readme.md)
