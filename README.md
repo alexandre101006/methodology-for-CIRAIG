@@ -93,9 +93,10 @@ Those Vehicle Component are themselves composed of Vehicle Subcomponent elements
 - Fixed Mass : the mass of the subcomponent takes a fixed value depending only the Vehicle Class and the Powertrain.
 - Specified Mass : the mass of the component is calculated based on the mass ratio of the subcomponent to the curbmass of the vehicle (the ratio depends on the Vehicle Class and the Powertrain).
 
-The three Vehicle Component have the following "recepies" :
+The three Vehicle Component have the following "recipes" :
 
 **A. Vehicle system**
+The recipe depends on the Powertrain.
 <table>
   <tr>
     <th>Powertrain</th>
@@ -151,6 +152,50 @@ The three Vehicle Component have the following "recepies" :
     <td>Transmission</td>
   </tr>
 </table>
+
+**B. Body&Chassis**
+The recipe depends on the Vehicle Class.
+<table>
+  <tr>
+    <th>Vehicle Class</th>
+    <th>Mass Calculation</th>
+    <th>Subcomponent</th>
+  </tr>
+
+  <!-- ICEV -->
+  <tr>
+    <td rowspan="3">Light Duty Vehicle (excl. Pickup trucks)</td>
+    <td rowspan="3">Specified Mass</td>
+    <td>Glider (excl. tire&wheel) (non-propulsion body&chassis package used as a proxy dataset)</td>
+  </tr>
+
+  <tr>
+    <td>Tires</td>
+  </tr>
+
+  <tr>
+    <td>Wheels</td>
+  </tr>
+
+  <!-- BEV -->
+  <tr>
+    <td rowspan="4">Pickup trucks</td>
+    <td rowspan="4">Specified Mass</td>
+    <td>Cabin</td>
+  </tr>
+
+  <tr>
+    <td>Frame-Blanks-Saddle</td>
+  </tr>
+
+  <tr>
+    <td>Suspension</td>
+  </tr>
+
+  <tr>
+    <td>Tires&Wheels</td>
+  </tr>
+
 ### From real life to POLARIIS+
 ### Gap analysis
 ### Future progress
