@@ -112,6 +112,8 @@ The three Vehicle Component have the following "recipies" :
   <tr>
     <td rowspan="3">Specified Mass</td>
     <td>Combustion engine (full unit : block, head, moving parts and engine hardware).</td>
+    <td>Exhaust system (post-combustion exhaust line and aftertreatment equipment).</td>
+    <td>Transmission</td>
   </tr>
 
    <tr>
