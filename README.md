@@ -195,6 +195,7 @@ The recipe depends on the Vehicle Class.
   <tr>
     <td>Tires&Wheels</td>
   </tr>
+</table>
 
   **C. Energy storage system**
 The recipe depends on the Powertrain.
@@ -220,6 +221,7 @@ The mass of a battery is calculated based on the fraction of its Capacity (kWh) 
     <td>Specified Mass</td>
     <td>Battery</td>
   </tr>
+</table>
 
 ### From real life to POLARIIS+
 ### Gap analysis
