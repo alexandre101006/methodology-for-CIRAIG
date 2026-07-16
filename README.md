@@ -93,7 +93,7 @@ Those Vehicle Component are themselves composed of Vehicle Subcomponent elements
 - Fixed Mass : the mass of the subcomponent takes a fixed value depending only the Vehicle Class and the Powertrain.
 - Specified Mass : the mass of the component is calculated based on the mass ratio of the subcomponent to the curbmass of the vehicle (the ratio depends on the Vehicle Class and the Powertrain).
 
-The three Vehicle Component have the following "recipies" :
+The three Vehicle Component have the following "recepies" :
 
 **A. Vehicle system**
 <table>
@@ -112,8 +112,6 @@ The three Vehicle Component have the following "recipies" :
   <tr>
     <td rowspan="3">Specified Mass</td>
     <td>Combustion engine (full unit : block, head, moving parts and engine hardware).</td>
-    <td>Exhaust system (post-combustion exhaust line and aftertreatment equipment).</td>
-    <td>Transmission</td>
   </tr>
 
    <tr>
