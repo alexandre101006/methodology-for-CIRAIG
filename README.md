@@ -103,39 +103,45 @@ The three Vehicle Component have the following "recipies" :
     <th>Subcomponent</th>
   </tr>
 
-  <!-- ICEV -->
   <tr>
-    <td rowspan="4">ICEV (-gasoline or -diesel)</td>
+    <td rowspan="2">ICEV (-gasoline or -diesel)</td>
     <td>Fixed Mass</td>
     <td>Gearbox</td>
   </tr>
 
   <tr>
     <td rowspan="3">Specified Mass</td>
-    <td>Combustion engine (full unit: block, head, moving parts, and engine hardware).</td>
+    <td>Combustion engine (full unit : block, head, moving parts and engine hardware).</td>
   </tr>
 
-  <tr>
+   <tr>
     <td>Exhaust system (post-combustion exhaust line and aftertreatment equipment).</td>
   </tr>
 
-  <tr>
+   <tr>
     <td>Transmission</td>
   </tr>
 
-  <!-- BEV -->
-  <tr>
-    <td rowspan="5">BEV</td>
-    <td rowspan="3">Fixed Mass</td>
+   <tr>
+    <td rowspan="2">BEV</td>
+    <td rowspan="4">Fixed Mass</td>
     <td>PDU (power distribution/protection high-voltage unit)</td>
   </tr>
 
   <tr>
-    <td>On-board charger</td>
+    <td>PDU (power distribution/protection high-voltage unit)</td>
   </tr>
 
   <tr>
-    <td>DC/DC converter</td>
+    <td>Charger (on-board charging hardware)</td>
+  </tr>
+
+  <tr>
+    <td>Converter</td>
+  </tr>
+
+  <tr>
+    <td>Inverter (for motor control/regeneration)</td>
   </tr>
 
   <tr>
@@ -143,10 +149,10 @@ The three Vehicle Component have the following "recipies" :
     <td>e-motor (traction electric machine)</td>
   </tr>
 
-  <tr>
+   <tr>
     <td>Transmission</td>
   </tr>
-</table>
+  </table>
 ### From real life to POLARIIS+
 ### Gap analysis
 ### Future progress
