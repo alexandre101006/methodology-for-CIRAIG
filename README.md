@@ -226,6 +226,10 @@ The mass of a battery is calculated based on the fraction of its Capacity (kWh) 
   </tr>
 </table>
 
+Those recipes actually end up as Bills of Material for the fabrication of the Vehicle Component. **No other resources than the Vehicle Subcomponents are used in the model.**
+
+**All resources necessary for the assembling of the Vehicle Components and the vehicle itself are grouped in the final Assembling Vehicle process.** Electricity, water and heat inputs are calculated based on the mass of the vehicle we are "building".
+
 ### From real life to POLARIIS+
 ### Gap analysis
 ### Future progress
