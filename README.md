@@ -231,9 +231,7 @@ Those recipes actually end up as Bills of Material for the fabrication of the Ve
 **All resources necessary for the assembling of the Vehicle Components and the vehicle itself are grouped in the final Assembling Vehicle process.** Electricity, water and heat inputs are calculated based on the mass of the vehicle we are "building".
 
 ### From real life to POLARIIS+
-Real process tree // Generic process tree.
-Table of the parameters and definitions.
-
 ### Gap analysis
 ### Future progress
+
 
