@@ -236,7 +236,11 @@ The data for mass calculation/data of the parameters is all gathered in `modules
 
 The fuel tank proxy is explained in `modules/vehicle_component/fuel_tank_proxy/fueltank_readme.md` ([here](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/vehicle_component/fuel_tank_proxy/fueltank_readme.md))).
 
-The data for the mass of the models is gathered in `modules/curbmass/model's curbmass and vehicle class/final result.csv` ([here are the explanations](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/curbmass/model's%20curbmass%20and%20vehicle%20class/readme.md))
+The data for the mass of the models is gathered in `modules/curbmass/model's curbmass and vehicle class/final result.csv` ([here are the explanations](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/curbmass/model's%20curbmass%20and%20vehicle%20class/readme.md)).
+
+The data for the necessary input in Vehicle Assembling is gathered in `modules/vehicle_component/vehicle_manuf/input_p_vehicle_manuf_v1.0.xlsx` ([here](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/vehicle_component/vehicle_manuf/input_p_vehicle_manuf_v1.0.xlsx)).
+
+Currently, no data has been found for the market activities.
 ### Gap analysis
 ### Future progress
 
