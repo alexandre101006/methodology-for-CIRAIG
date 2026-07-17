@@ -234,7 +234,7 @@ Those recipes actually end up as Bills of Material for the fabrication of the Ve
 Real process tree // Generic process tree.
 Table of the parameters and definitions.
 
-![The generic process tree is the following :](images/architecture.png)
+![The generic process tree is the following :](images/Manufacturing Vehicle PorcessTree.svg)
 
 ### Gap analysis
 ### Future progress
