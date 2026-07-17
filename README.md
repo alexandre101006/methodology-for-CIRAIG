@@ -231,6 +231,8 @@ Those recipes actually end up as Bills of Material for the fabrication of the Ve
 **All resources necessary for the assembling of the Vehicle Components and the vehicle itself are grouped in the final Assembling Vehicle process.** Electricity, water and heat inputs are calculated based on the mass of the vehicle we are "building".
 
 ### From real life to POLARIIS+
+
+The data for mass parameters of the components is all gathered in 'modules/vehicle_component/input_p_vehicle_component_v1.4.xlsx'
 ### Gap analysis
 ### Future progress
 
