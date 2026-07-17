@@ -232,7 +232,7 @@ Those recipes actually end up as Bills of Material for the fabrication of the Ve
 
 ### From real life to POLARIIS+
 
-The data for mass parameters of the components is all gathered in `modules/vehicle_component/input_p_vehicle_component_v1.4.xlsx` ([here](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/vehicle_component/input_p_vehicle_component_v1.4.xlsx)).
+The data for mass calculation/data of the parameters is all gathered in `modules/vehicle_component/input_p_vehicle_component_v1.4.xlsx` ([here](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/vehicle_component/input_p_vehicle_component_v1.4.xlsx)).
 ### Gap analysis
 ### Future progress
 
