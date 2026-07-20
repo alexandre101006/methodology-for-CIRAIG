@@ -262,7 +262,7 @@ This module is built on the following object dimensions :
   </tr>
 
   <tr>
-    <td rowspan="8">Vehicle</td>
+    <td rowspan="4">Vehicle</td>
     <td>Vehicle Class</td>
     <td>In Canada, the classification of vehicles is achieved on the basis of two quantitative criteria : the Gross Vehicle Weight Rate and the interior volume.</td>
   </tr>
@@ -280,7 +280,6 @@ This module is built on the following object dimensions :
    <tr>
     <td>Vehicle MakeModel</td>
     <td>The model of the vehicle.</td>
-  </tr>
   </tr>
   </table>
 
