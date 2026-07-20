@@ -340,12 +340,22 @@ This module is built on the following object dimensions :
 ## Model and hypothesis
 
 This activity is a auxiliairy activity providing a service for "1 vkm of driving".
-
+*Module ttw_energy*
 In order to get that service, we first need to determine how much energy input will be needed. This is the "tank-to-wheel energy". In our model, the energy input depends on the Vehicle Class and the Powertrain.
 
-A linear regression for each Vehicle Class x Powertrain combination has given us the following equation (see [here](https://github.com/polariis-plus/bd-conso-7transport/tree/main/modules/ttw_MJpervkm) STEP 7 for a detailed explanation of the regression by Susie) :
+A linear regression for each Vehicle Class x Powertrain combination has given us the following equation (see [here](https://github.com/polariis-plus/bd-conso-7transport/tree/main/modules/ttw_MJpervkm) for a detailed explanation of the regression by Susie) :
 
 $\text{Tank-to-Wheel Energy} = \text{a * driving-mass + b}$
+
+with *a* the the slope of the linear regression in MJ of fuel / vkm / kg of Vehicle and *b* the intercept of the linear regression in MJ of fuel / vkm.
+
+*Module Scope 1*
+On the other hand, the outputs are exclusively Substance emissions in the biosphere (**assumed in air**). The emissions are calculated in **three different ways** :
+- specific equations for emission factors per MJ relying on fuel properties ([CO2](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/scope1_EF/CO2_linking_EFperMJfuel/scope1_EF_CO2_wh_ttw.xlsx) and [SO2](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/scope1_EF/SO2_linking_EFperMJfuel/scope1_EF_SO2_wh_ttw.xlsx)),
+- emission factors per MJ of fuel ([CH4 and N20](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/scope1_EF/CH4_N2O_linking_EFperMJfuel/scope1_EF_CH4_N2O_wh_ttw.xlsx)),
+- emissions factor per vkm driven (depending on the Powertrain and the Vehicle Class only / independant from Fuel Type) ([for all other emited Substances](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/scope1_EF/exhaust_allotherEFs/default_scope1_exhaust_EF_filled_factors_with_minmax_SD.xlsx)),
+- some of those factor can be corrected depending on the Speed of the Vehicle ([CO, NH3, NOx, PM2,5](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/scope1_EF/exhaust_allotherEFs/default_scope1_exhaust_EF_filled_factors_with_minmax_SD.xlsx)).
+
 
 ### From real life to POLARIIS+
 ### Gap analysis
