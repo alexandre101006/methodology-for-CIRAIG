@@ -245,7 +245,45 @@ Currently, no data has been found for the market activities.
 ### Future progress
 
 # Driving Vehicle (consumption and emissions)
+
+This section regroups two modules :
+- Tank-to-Wheel energy,
+- Scope 1 emissions.
+
 ## Taxonomy and definitions
+
+This module is built on the following object dimensions :
+
+<table>
+  <tr>
+    <th>Space</th>
+    <th>Dimensions</th>
+    <th>Definition</th>
+  </tr>
+
+  <tr>
+    <td rowspan="8">Vehicle</td>
+    <td>Vehicle Class</td>
+    <td>In Canada, the classification of vehicles is achieved on the basis of two quantitative criteria : the Gross Vehicle Weight Rate and the interior volume.</td>
+  </tr>
+
+  <tr>
+    <td>Powertrain</td>
+    <td>The power generator used in the vehicle.</td>
+  </tr>
+
+   <tr>
+    <td>Vehicle ModelYear</td>
+    <td>The year of the manufactured batch of the model (a same model can have slightly different properties through the years).</td>
+  </tr>
+
+   <tr>
+    <td>Vehicle MakeModel</td>
+    <td>The model of the vehicle.</td>
+  </tr>
+  </tr>
+  </table>
+
 ## Model and hypothesis
 ### From real life to POLARIIS+
 ### Gap analysis
