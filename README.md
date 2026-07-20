@@ -297,6 +297,28 @@ This module is built on the following object dimensions :
     <td>Compartment</td>
     <td>Environmental medium, hierarchical. Roots: Air, Water, Soil_land, In_ground, Biotic.</td>
   </tr>
+
+  <tr>
+    <td rowspan="1">Energy</td>
+    <td>EnergyType</td>
+    <td>Source of power.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">Energy</td>
+    <td>Fuel origin route</td>
+    <td>Where the fuel has been extracted.</td>
+  </tr>
+
+  <tr>
+    <td>Deposit Type</td>
+    <td>The type of deposit from which the fuel has been extracted.</td>
+  </tr>
+
+  <tr>
+    <td>Production Method</td>
+    <td>The production method of the fuel.</td>
+  </tr>
   </table>
 
 ## Model and hypothesis
