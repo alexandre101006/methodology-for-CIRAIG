@@ -305,7 +305,7 @@ This module is built on the following object dimensions :
   </tr>
 
   <tr>
-    <td rowspan="3">Energy</td>
+    <td rowspan="3">Fuel for Transport</td>
     <td>Fuel origin route</td>
     <td>Where the fuel has been extracted.</td>
   </tr>
