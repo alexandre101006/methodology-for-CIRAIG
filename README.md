@@ -345,7 +345,7 @@ In order to get that service, we first need to determine how much energy input w
 
 A linear regression for each Vehicle Class x Powertrain combination has given us the following equation (see [here](https://github.com/polariis-plus/bd-conso-7transport/tree/main/modules/ttw_MJpervkm) STEP 7 for a detailed explanation of the regression by Susie) :
 
-$\text{Tank-to-Wheel Energy} = \text{a * driving_mass + b}$
+$\text{Tank-to-Wheel Energy} = \text{a * driving-mass + b}$
 
 ### From real life to POLARIIS+
 ### Gap analysis
