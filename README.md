@@ -62,7 +62,7 @@ This module is also built on the following action dimensions :
   </tr>
 
   <tr>
-    <td rowspan="8">Vehicle Manufacturing</td>
+    <td rowspan="4">Vehicle Manufacturing</td>
     <td>Component Assembling</td>
     <td>Exclusively cover the fabrication of the Vehicle Component.</td>
   </tr>
@@ -318,6 +318,22 @@ This module is built on the following object dimensions :
   <tr>
     <td>Production Method</td>
     <td>The production method of the fuel.</td>
+  </tr>
+  </table>
+
+  <table>
+  <tr>
+    <th>Space</th>
+    <th>Dimensions</th>
+    <th>Definition</th>
+  </tr>
+
+  All these dimensions revolve around one central action :
+
+  <tr>
+    <td rowspan="1">Vehicle</td>
+    <td>Driving</td>
+    <td>Driving classic and daily-life road vehicles.</td>
   </tr>
   </table>
 
