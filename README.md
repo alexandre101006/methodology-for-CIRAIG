@@ -285,17 +285,17 @@ This module is built on the following object dimensions :
   <tr>
     <td rowspan="3">Biosphere</td>
     <td>Substance_name</td>
-    <td></td>
+    <td>The elementary substance (geography, unit and cross-cutting attributes stripped out).</td>
   </tr>
 
   <tr>
     <td>Substance_direction</td>
-    <td></td>
+    <td>Emitted to vs extracted from the environment.</td>
   </tr>
 
    <tr>
     <td>Compartment</td>
-    <td></td>
+    <td>Environmental medium, hierarchical. Roots: Air, Water, Soil_land, In_ground, Biotic.</td>
   </tr>
   </table>
 
