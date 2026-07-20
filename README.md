@@ -281,6 +281,22 @@ This module is built on the following object dimensions :
     <td>Vehicle MakeModel</td>
     <td>The model of the vehicle.</td>
   </tr>
+
+  <tr>
+    <td rowspan="3">Biosphere</td>
+    <td>Substance_name</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Substance_direction</td>
+    <td></td>
+  </tr>
+
+   <tr>
+    <td>Compartment</td>
+    <td></td>
+  </tr>
   </table>
 
 ## Model and hypothesis
