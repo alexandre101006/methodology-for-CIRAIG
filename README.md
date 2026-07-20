@@ -338,6 +338,15 @@ This module is built on the following object dimensions :
   </table>
 
 ## Model and hypothesis
+
+This activity is a auxiliairy activity providing a service for "1 vkm of driving".
+
+In order to get that service, we first need to determine how much energy input will be needed. This is the "tank-to-wheel energy". In our model, the energy input depends on the Vehicle Class and the Powertrain.
+
+A linear regression for each Vehicle Class x Powertrain combination has given us the following equation (see [here](https://github.com/polariis-plus/bd-conso-7transport/tree/main/modules/ttw_MJpervkm) STEP 7 for a detailed explanation of the regression by Susie) :
+
+$\text{Tank-to-Wheel Energy} = \text{a * driving_{}mass + b}$
+
 ### From real life to POLARIIS+
 ### Gap analysis
 ### Future progress
