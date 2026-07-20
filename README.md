@@ -356,6 +356,7 @@ On the other hand, the outputs are exclusively Substance emissions in the biosph
 - emissions factor per vkm driven (depending on the Powertrain and the Vehicle Class only / independant from Fuel Type) ([for all other emited Substances](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/scope1_EF/exhaust_allotherEFs/default_scope1_exhaust_EF_filled_factors_with_minmax_SD.xlsx)),
 - some of those factor can be corrected depending on the Speed of the Vehicle ([CO, NH3, NOx, PM2,5](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/scope1_EF/exhaust_allotherEFs/default_scope1_exhaust_EF_filled_factors_with_minmax_SD.xlsx)).
 
+Obviously, those Scope 1 substances are emitted only with ICEVs. Data on hybrid vehicles are yet to be added.
 
 ### From real life to POLARIIS+
 ### Gap analysis
