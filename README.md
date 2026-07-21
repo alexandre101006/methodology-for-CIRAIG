@@ -362,4 +362,11 @@ Obviously, those Scope 1 substances are emitted only with ICEVs. Data on hybrid 
 ### Gap analysis
 ### Future progress
 
+# Fuel production
+## Taxonomy and definitions
+## Model and hypothesis
+### From real life to POLARIIS+
+### Gap analysis
+### Future progress
+
 
