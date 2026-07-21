@@ -363,8 +363,58 @@ Obviously, those Scope 1 substances are emitted only with ICEVs. Data on hybrid 
 ### Future progress
 
 # Fuel production
-The fuel module traces the 
+The fuel module covers a 3 steps process tree that will be explained linearly.
 ## Taxonomy and definitions
+This module is built on the following object dimensions :
+
+<table>
+  <tr>
+    <th>Space</th>
+    <th>Dimensions</th>
+    <th>Definition</th>
+  </tr>
+
+  <tr>
+    <td rowspan="5">Fuel for Transport</td>
+    <td>Fuel Status</td>
+    <td>State of the fuel in the production chain.</td>
+  </tr>
+
+  <tr>
+    <td>Deposit Type</td>
+    <td>The kind of oil deposit from which the crude oil has been extracted.</td>
+  </tr>
+
+   <tr>
+    <td>Fuel Origin Route</td>
+    <td>The deposit area from which the crude oil has been extracted.</td>
+  </tr>
+
+   <tr>
+    <td>Fuel Infrastructure</td>
+    <td>Required infrastrucutres along the production stage of fuel.</td>
+  </tr>
+
+   <tr>
+    <td>Fuel Blending Bio-Ratio</td>
+    <td>Bio-sourced fuel blending ratio (set at 0 for fuel type that aren't concerned).</td>
+  </tr>
+
+   <tr>
+    <td>Vehicle Component</td>
+    <td>The main blocks on which is built the vehicle.</td>
+  </tr>
+
+   <tr>
+    <td>Battery chemistry</td>
+    <td>For BEVs and hybrid systems, the battery functions with a certain battery chemistry which can vary from a model to an other.</td>
+  </tr>
+
+   <tr>
+    <td>Vehicle Subcomponent</td>
+    <td>The most granular level of elements composing the vehicle yet : they can be seen as a recipe to build the Vehicle Component</td>
+  </tr>
+  </table>
 ## Model and hypothesis
 ### From real life to POLARIIS+
 ### Gap analysis
