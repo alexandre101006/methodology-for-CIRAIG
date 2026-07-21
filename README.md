@@ -516,28 +516,25 @@ The "recipe" for oil extraction is quite similar in both cases :
   </tr>
 
   <tr>
-    <td>Flaring</td>
-    <td>Carbon dioxide only.</td>
+    <td rowspan="4">Emissions</td>
+    <td>Flaring (carbon dioxide only).</td>
   </tr>
 
   <tr>
-    <td>Venting</td>
-    <td>Carbon dioxide and methane.</td>
+    <td>Venting (carbon dioxide and methane).</td>
   </tr>
 
   <tr>
-    <td>Fugitive</td>
-    <td>Carbon dioxide and methane.</td>
+    <td>Fugitive (carbon dioxide and methane).</td>
   </tr>
 
   <tr>
-    <td>NRCAN</td>
-    <td>Whole bunch of different substances.</td>
+    <td>NRCAN (whole bunch of different substances).</td>
   </tr>
 
   <!-- Input -->
   <tr>
-    <td rowspan="6">Input</td>
+    <td rowspan="7">Input</td>
     <td>Crude Oil To Extract</td>
     <td></td>
   </tr>
@@ -548,32 +545,27 @@ The "recipe" for oil extraction is quite similar in both cases :
   </tr>
 
   <tr>
-    <td>Water Treatment</td>
-    <td></td>
+    <td rowspan="2">Services</td>
+    <td>Water Treatment.</td>
   </tr>
 
   <tr>
-    <td>Waste to be treated</td>
-    <td></td>
+    <td>Waste to be treated.</td>
   </tr>
 
   <tr>
-    <td>On Shore Petroleum Field</td>
-    <td>Unit.</td>
+    <td rowspan="2">Infrastructures</td>
+    <td>On Shore Petroleum Field (unit).</td>
   </tr>
 
   <tr>
-    <td>On Shore Well</td>
-    <td>km.</td>
+    <td>On Shore Well (km).</td>
   </tr>
 
-  <!-- Technosphere -->
   <tr>
     <td>Technosphere Ingredients</td>
     <td></td>
-    <td></td>
   </tr>
-
 </table>
 
 The different emission sources are separated to be tagged and identifiable in contribution analysis.
