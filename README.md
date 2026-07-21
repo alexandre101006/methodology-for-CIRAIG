@@ -508,6 +508,7 @@ The "recipe" for oil extraction is quite similar in both cases :
     <th>Specified Ingredient</th>
   </tr>
   
+  <!-- Output -->
   <tr>
     <td rowspan="2">Output</td>
     <td>Extracted Crude Oil</td>
@@ -530,9 +531,10 @@ The "recipe" for oil extraction is quite similar in both cases :
   <tr>
     <td>NRCAN (whole bunch of different substances).</td>
   </tr>
-
+  
+  <!-- Input -->
    <tr>
-    <td rowspan="5">Output</td>
+    <td rowspan="5">Input</td>
     <td>Crude Oil To Extract</td>
     <td></td>
   </tr>
