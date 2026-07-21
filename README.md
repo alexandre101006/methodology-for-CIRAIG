@@ -428,7 +428,69 @@ This module is built on the following object dimensions :
     <td>Bunch of technosphere resources (not necessarly linked).</td>
   </tr>
   </table>
+  
 ## Model and hypothesis
+The current models and data cover the four following fuel profiles :
+
+<table>
+  <tr>
+    <th>Energy Type</th>
+    <th>Origin Route</th>
+    <th>Deposit Type</th>
+    <th>Production Method</th>
+  </tr>
+
+  <tr>
+    <td rowspan="4">Motor Gasoline (conventional)</td>
+    <td>Alberta, Canada</td>
+    <td>Cold Lake</td>
+    <td>dilbit</td>
+  </tr>
+
+  <tr>
+    <td>Alberta, Canada</td>
+    <td>Oil Sand</td>
+    <td>SCO</td>
+  </tr>
+
+  <tr>
+    <td>Canada (conventional)</td>
+    <td>Conventional</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>United-States (conventional)</td>
+    <td>Convnetional</td>
+    <td></td>
+  </tr>
+
+   <tr>
+    <td rowspan="4">Fischer-Tropsch Diesel (FTD 100)</td>
+    <td>Alberta, Canada</td>
+    <td>Cold Lake</td>
+    <td>dilbit</td>
+  </tr>
+
+  <tr>
+    <td>Alberta, Canada</td>
+    <td>Oil Sand</td>
+    <td>SCO</td>
+  </tr>
+
+  <tr>
+    <td>Canada (conventional)</td>
+    <td>Conventional</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>United-States (conventional)</td>
+    <td>Convnetional</td>
+    <td></td>
+  </tr>
+  </table>
+  
 ### From real life to POLARIIS+
 ### Gap analysis
 ### Future progress
