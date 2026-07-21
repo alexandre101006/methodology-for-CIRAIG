@@ -363,6 +363,7 @@ Obviously, those Scope 1 substances are emitted only with ICEVs. Data on hybrid 
 ### Future progress
 
 # Fuel production
+The fuel module traces the 
 ## Taxonomy and definitions
 ## Model and hypothesis
 ### From real life to POLARIIS+
