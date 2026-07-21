@@ -490,6 +490,88 @@ The current models and data cover the four following fuel profiles :
     <td></td>
   </tr>
   </table>
+
+Let's explore the fuel production route chronologically !
+
+**A. Extracting crude oil**
+
+That step only covers the extraction from Alberta :
+- Cold Lake dilbit, CA-AB
+- SCO Oil Sand, CA-AB
+
+The "recipe" for oil extraction is quite similar in both cases :
+
+<table>
+  <tr>
+    <th>Flow Type</th>
+    <th>Ingredient Type</th>
+    <th>Specified Ingredient</th>
+  </tr>
+  
+  <tr>
+    <td rowspan="2">Output</td>
+    <td>Extracted Crude Oil</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td rowspan="4">Emissions</td>
+    <td>Flaring (carbon dioxide only).</td>
+  </tr>
+
+  <tr>
+    <td>Venting (carbone dioxide and methane).</td>
+  </tr>
+
+  <tr>
+    <td>Fugitive (carbone dioxide and methane).</td>
+  </tr>
+
+  <tr>
+    <td>NRCAN (whole bunch of different substances).</td>
+  </tr>
+
+   <tr>
+    <td rowspan="5">Output</td>
+    <td>Crude Oil To Extract</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Energy</td>
+    <td>Energy inputs (electricity, burned fuel).</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Services</td>
+    <td>Water Treatment.</td>
+  </tr>
+
+  <tr>
+    <td>Waste to be treated.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Infrastructures</td>
+    <td>On Shore Petroleum Field (unit). </td>
+  </tr>
+
+  <tr>
+    <td>On Shore Well (km)</td>
+  </tr>
+
+   <tr>
+    <td>Technosphere Ingredients</td>
+    <td></td>
+  </tr>
+
+</table>
+
+The different emission sources are separated to be tagged and identifiable in contribution analysis.
+
+In this process it is assumed that there is no Oil Loss in the extraction process (the input and output values are equal).
+
+
   
 ### From real life to POLARIIS+
 ### Gap analysis
