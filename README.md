@@ -570,7 +570,7 @@ The "recipe" for oil extraction is quite similar in both cases :
 
 The different emission sources are separated to be tagged and identifiable in contribution analysis.
 
-In this process it is assumed that there is no Oil Loss in the extraction process (the input and output values are equal).
+**In this process it is assumed that there is no Oil Loss in the extraction process** (the input and output values are equal).
 
 
   
