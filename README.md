@@ -283,7 +283,7 @@ This module is built on the following object dimensions :
   </tr>
 
   <tr>
-    <td rowspan="3">Biosphere</td>
+    <td rowspan="3">Elementary Flow</td>
     <td>Substance_name</td>
     <td>The elementary substance (geography, unit and cross-cutting attributes stripped out).</td>
   </tr>
@@ -375,6 +375,12 @@ This module is built on the following object dimensions :
   </tr>
 
   <tr>
+    <td>Energy</td>
+    <td>Energy Type</td>
+    <td>Source of power (used both as energy inputs and as reference product objects).</td>
+  </tr>
+
+  <tr>
     <td rowspan="5">Fuel for Transport</td>
     <td>Fuel Status</td>
     <td>State of the fuel in the production chain.</td>
@@ -400,19 +406,26 @@ This module is built on the following object dimensions :
     <td>Bio-sourced fuel blending ratio (set at 0 for fuel type that aren't concerned).</td>
   </tr>
 
-   <tr>
-    <td>Vehicle Component</td>
-    <td>The main blocks on which is built the vehicle.</td>
+  <tr>
+    <td rowspan="3">Elementary Flow</td>
+    <td>Substance Name</td>
+    <td>The elementary substance (geography, unit and cross-cutting attributes stripped out).</td>
+  </tr>
+
+  <tr>
+    <td>Substance Direction</td>
+    <td>Emitted to vs extracted from the environment.</td>
   </tr>
 
    <tr>
-    <td>Battery chemistry</td>
-    <td>For BEVs and hybrid systems, the battery functions with a certain battery chemistry which can vary from a model to an other.</td>
+    <td>Compartment</td>
+    <td>Environmental medium, hierarchical. Roots: Air, Water, Soil_land, In_ground, Biotic.</td>
   </tr>
 
-   <tr>
-    <td>Vehicle Subcomponent</td>
-    <td>The most granular level of elements composing the vehicle yet : they can be seen as a recipe to build the Vehicle Component</td>
+  <tr>
+    <td>Others</td>
+    <td>Technosphere Ingredients</td>
+    <td>Bunch of technosphere resources (not necessarly linked).</td>
   </tr>
   </table>
 ## Model and hypothesis
