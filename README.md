@@ -507,34 +507,37 @@ The "recipe" for oil extraction is quite similar in both cases :
     <th>Ingredient Type</th>
     <th>Specified Ingredient</th>
   </tr>
-  
+
   <!-- Output -->
   <tr>
-    <td rowspan="2">Output</td>
+    <td rowspan="5">Output</td>
     <td>Extracted Crude Oil</td>
     <td></td>
   </tr>
 
   <tr>
-    <td rowspan="4">Emissions</td>
-    <td>Flaring (carbon dioxide only).</td>
+    <td>Flaring</td>
+    <td>Carbon dioxide only.</td>
   </tr>
 
   <tr>
-    <td>Venting (carbone dioxide and methane).</td>
+    <td>Venting</td>
+    <td>Carbon dioxide and methane.</td>
   </tr>
 
   <tr>
-    <td>Fugitive (carbone dioxide and methane).</td>
+    <td>Fugitive</td>
+    <td>Carbon dioxide and methane.</td>
   </tr>
 
   <tr>
-    <td>NRCAN (whole bunch of different substances).</td>
+    <td>NRCAN</td>
+    <td>Whole bunch of different substances.</td>
   </tr>
-  
+
   <!-- Input -->
-   <tr>
-    <td rowspan="5">Input</td>
+  <tr>
+    <td rowspan="6">Input</td>
     <td>Crude Oil To Extract</td>
     <td></td>
   </tr>
@@ -545,25 +548,29 @@ The "recipe" for oil extraction is quite similar in both cases :
   </tr>
 
   <tr>
-    <td rowspan="2">Services</td>
-    <td>Water Treatment.</td>
+    <td>Water Treatment</td>
+    <td></td>
   </tr>
 
   <tr>
-    <td>Waste to be treated.</td>
+    <td>Waste to be treated</td>
+    <td></td>
   </tr>
 
   <tr>
-    <td rowspan="2">Infrastructures</td>
-    <td>On Shore Petroleum Field (unit). </td>
+    <td>On Shore Petroleum Field</td>
+    <td>Unit.</td>
   </tr>
 
   <tr>
-    <td>On Shore Well (km)</td>
+    <td>On Shore Well</td>
+    <td>km.</td>
   </tr>
 
-   <tr>
+  <!-- Technosphere -->
+  <tr>
     <td>Technosphere Ingredients</td>
+    <td></td>
     <td></td>
   </tr>
 
