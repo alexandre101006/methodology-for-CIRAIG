@@ -582,6 +582,7 @@ The different emission sources are separated to be tagged and identifiable in co
 In the data files, some reference output unit are in MJ (instead of kg) : the conversion has been made within the template.
 
 **B. Pipelining oil**
+
 The pipelining of crude oil is delt with accross two different activity :
 - one auxiliary activity ("market for transport of crude oil by pipeline")
 - one main activity ("market for crude oil")
@@ -596,6 +597,8 @@ The real flows, taking root in ecoinvent, are :
 It is **assumed that the whole pipeline contributes to the transport of crude oil**, even though the real path of crude oil is shorter. Thus, electricity from all accross the region is used.
 
 The main activity calls for that service and is designed to transport one kilogram of crude oil. The only variable in this activity is the pipelining distance, which ends up defining "how much" of the service we are calling.
+
+The oil input is provided by the template's extraction activity for Alberta Oil Sand and Cold Lake Oil, and provided directly by ecoinvent for conventional oil from USA and Canada.
 
 **C. Refining oil**
 
