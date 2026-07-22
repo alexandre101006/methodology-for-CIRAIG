@@ -381,7 +381,7 @@ This module is built on the following object dimensions :
   </tr>
 
   <tr>
-    <td rowspan="5">Fuel for Transport</td>
+    <td rowspan="6">Fuel for Transport</td>
     <td>Fuel Status</td>
     <td>State of the fuel in the production chain.</td>
   </tr>
@@ -389,6 +389,11 @@ This module is built on the following object dimensions :
   <tr>
     <td>Deposit Type</td>
     <td>The kind of oil deposit from which the crude oil has been extracted.</td>
+  </tr>
+
+  <tr>
+    <td>Production Method</td>
+    <td>Child dimension for the parent dimension Deposit Type (Oil Sand & Cold Lake)</td>
   </tr>
 
    <tr>
