@@ -581,6 +581,23 @@ The different emission sources are separated to be tagged and identifiable in co
 
 In the data files, some reference output unit are in MJ (instead of kg) : the conversion has been made within the template.
 
+**B. Pipelining oil**
+The pipelining of crude oil is delt with accross two different activity :
+- one auxiliary activity ("market for transport of crude oil by pipeline")
+- one main activity ("market for crude oil")
+
+The **market for transport of crude oil by pipeline** is an auxiliary activity providing the service for 1 tkm of crude oil transport.
+
+The shadow flows represent the crude in Location A (input) and Location B (output).
+The real flows, taking root in ecoinvent, are :
+- A lenght fraction of Pipeline infrastructure
+- A market for electricity accross North America
+
+It is **assumed that the whole pipeline contributes to the transport of crude oil**, even though the real path of crude oil is shorter. Thus, electricity from all accross the region is used.
+
+The main activity calls for that service and is designed to transport one kilogram of crude oil. The only variable in this activity is the pipelining distance, which ends up defining "how much" of the service we are calling.
+
+**C. Refining oil**
 
   
 ### From real life to POLARIIS+
