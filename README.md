@@ -506,7 +506,7 @@ That step only covers the extraction from Alberta :
 - Cold Lake dilbit, CA-AB
 - SCO Oil Sand, CA-AB
 
-The "recipe" for oil extraction is quite similar in both cases :
+The "recipe" for oil extraction is quite similar in both cases (**all flow depend on the type of fuel**) :
 
 <table>
   <tr>
@@ -602,7 +602,7 @@ The oil input is provided by the template's extraction activity for Alberta Oil 
 
 **C. Refining oil**
 
-The "recipe" for oil refining is similar for all  cases :
+The "recipe" for oil refining is similar for all  cases (**all flow depend on the type of fuel**)  :
 
 <table>
   <tr>
