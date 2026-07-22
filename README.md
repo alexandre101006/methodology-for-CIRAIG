@@ -649,6 +649,8 @@ The "recipe" for oil refining is similar for all  cases (**all flow depend on th
     <td>High pressure.</td>
   </tr>
 </table>
+
+There are two recipes in the multiflow tab : one for conventional (US and Canada) oil and one for unconventional (OilSand and ColdLake) oil. Actually, both recipes are the exact same, but one more dimension is needed for OilSand and ColdLake oil, as they are paretn modality of the Production method dimension.
   
 ### From real life to POLARIIS+
 ### Gap analysis
