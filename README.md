@@ -602,6 +602,53 @@ The oil input is provided by the template's extraction activity for Alberta Oil 
 
 **C. Refining oil**
 
+The "recipe" for oil refining is similar for all  cases :
+
+<table>
+  <tr>
+    <th>Flow Type</th>
+    <th>Ingredient Type</th>
+    <th>Specified Ingredient</th>
+  </tr>
+
+  <!-- Output -->
+  <tr>
+    <td rowspan="2">Output</td>
+    <td>Refined Fuel</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Emissions (in biosphere)</td>
+    <td>Air/Water/Soil/Soil industrial all regrouped in the multiflow.</td>
+  </tr>
+
+  <!-- Input -->
+  <tr>
+    <td rowspan="7">Input</td>
+    <td>Crude Oil</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Electricity</td>
+    <td>Medium voltage.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Biosphere Resources</td>
+    <td>Water.</td>
+  </tr>
+
+  <tr>
+    <td>Land.</td>
+  </tr>
+
+  <tr>
+    <td>Natural Gas</td>
+    <td>High pressure.</td>
+  </tr>
+</table>
   
 ### From real life to POLARIIS+
 ### Gap analysis
