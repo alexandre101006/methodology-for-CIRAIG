@@ -491,7 +491,9 @@ The current models and data cover the four following fuel profiles :
   </tr>
   </table>
 
-Let's explore the fuel production route chronologically !
+Let's explore the fuel production route chronologically ! The precise list of flows can be found in the following files :
+- [processes and reference units](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/fuel/migrate_AB_to_template/QC_fuel_migration/generated_tables/traversal_no_double_count_export/ab_bw_process_to_template_action_map.csv)
+- [precise flows](https://github.com/polariis-plus/bd-conso-transport/blob/main/modules/fuel/migrate_AB_to_template/QC_fuel_migration/generated_tables/traversal_no_double_count_export/direct_terminal_inputs_no_internal_links.csv)
 
 **A. Extracting crude oil**
 
@@ -516,7 +518,7 @@ The "recipe" for oil extraction is quite similar in both cases :
   </tr>
 
   <tr>
-    <td rowspan="4">Emissions</td>
+    <td rowspan="4">Emissions (in biosphere)</td>
     <td>Flaring (carbon dioxide only).</td>
   </tr>
 
