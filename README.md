@@ -574,6 +574,8 @@ The different emission sources are separated to be tagged and identifiable in co
 
 **In this process it is assumed that there is no Oil Loss in the extraction process** (the input and output values are equal).
 
+In the data files, some reference output unit are in MJ (instead of kg) : the conversion has been made within the template.
+
 
   
 ### From real life to POLARIIS+
